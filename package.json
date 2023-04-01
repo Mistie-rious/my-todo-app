@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://{Mistie-rious}.github.io"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "homepage": "https://{Mistie-rious}.github.io",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
