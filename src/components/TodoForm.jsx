@@ -15,8 +15,8 @@ const submitTasks = e => {
     <div className=' my-8 flex justify-center'>
         <br></br>
         <form className= 'bg-slate-500 w-fit px-8 py-8' onSubmit={submitTasks}>
-            <input value={tasks} onChange={(e) => setTasks(e.target.value)} className='bg-white py-3 px-3 border border-black ' type='text' placeholder='What do you want to do today?'></input>
-            <button type='submit' className='bg-slate-600 border rounded-md px-3 py-3 transition ease-in-out delay-75  hover:bg-indigo-400'>Add task</button>
+            <input value={tasks} onChange={(e) => setTasks(e.target.value)} className='bg-white py-3  px-3 border border-black ' type='text' placeholder='What do you want to do today?'></input>
+            <button type='submit' className='bg-slate-600 border  px-3 py-3 transition ease-in-out delay-50 duration-200  hover:bg-lightblue'>Add task</button>
         </form>
     </div>
   )

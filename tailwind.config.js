@@ -18,7 +18,9 @@ module.exports = {
         cambrigeblue : '#77ACA2',
         platinum: '#E7E5E5',
         pacificryan: '#4BA3C3',
-        champagnepink: '#FCEADE'
+        champagnepink: '#FCEADE',
+        outerspace: '#484A47',
+        lightblue: '#B8DBD9'
       },
     },
   },

@@ -14,7 +14,7 @@ function Todo({task, toggleComplete, deleteTodo, editTodo}) {
        <div className='bg-platinum border border-black py-3 space-x-3 flex '>
         
   
-          <p onClick={ ()=> toggleComplete(task.id)} className= {`mr-auto cursor-pointer ${task.completed? 'line-through':''}`}  >{task.task}</p>
+          <p onClick={ ()=> toggleComplete(task.id)} className= {`mr-auto  ml-1 cursor-pointer ${task.completed? 'line-through':''}`}  >{task.task}</p>
         <FontAwesomeIcon icon={faPenToSquare} className='hover: cursor-pointer' onClick={() => editTodo(task.id)} />
         <FontAwesomeIcon icon={faTrash} onClick={() => deleteTodo(task.id)} className='hover: cursor-pointer' />
    
