@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "homepage": "https://{Mistie-rious}.github.io"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
